@@ -132,6 +132,10 @@ export default {
           "0%": { transform: "scale(0.95)" },
           "100%": { transform: "scale(1)" },
         },
+        blink: {
+          "0%, 100%": { opacity: "1" },
+          "50%": { opacity: "0" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -141,6 +145,7 @@ export default {
         "text-rotate": "textRotate 9s linear infinite",
         "fade-up": "fadeUp 0.6s ease-out forwards",
         "scale-up": "scaleUp 0.5s ease-out forwards",
+        "cursor-blink": "blink 1s infinite",
       },
     },
   },

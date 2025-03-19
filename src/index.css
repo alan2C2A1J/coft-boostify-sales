@@ -76,12 +76,8 @@
     @apply bg-gradient-to-r from-orange-500 to-orange-400 bg-clip-text text-transparent;
   }
 
-  .text-rotate-container {
-    @apply relative inline-block overflow-hidden h-[1.5em] align-bottom;
-  }
-
-  .text-rotate-item {
-    @apply block animate-text-rotate;
+  .text-rotate-wrapper {
+    @apply inline-block overflow-hidden align-bottom;
   }
 
   .section {
@@ -109,7 +105,8 @@
   }
 }
 
-.text-rotate-wrapper {
+/* This is no longer needed with the new TextRotator implementation */
+/* .text-rotate-wrapper {
   display: inline-block;
   overflow: hidden;
   height: 1.5em;
@@ -131,4 +128,4 @@
   67%, 100% {
     transform: translateY(-200%);
   }
-}
+} */

@@ -33,7 +33,10 @@ const HeroSection = ({ className }: HeroSectionProps) => {
                   "Aumentamos Suas Vendas",
                   "Seu Faturamento",
                   "Sua Presença de Marca"
-                ]} 
+                ]}
+                typingSpeed={80}
+                erasingSpeed={40}
+                delayBetweenTexts={2000}
               />
             </h1>
             <p className="text-white/80 text-lg md:text-xl mb-8 max-w-xl">
