@@ -29,8 +29,9 @@ const HeroSection = ({ className }: HeroSectionProps) => {
           <div className="flex-1 animate-fade-in opacity-0" style={{ animationDelay: '0.2s', animationFillMode: 'forwards' }}>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 tracking-tight">
               <TextRotator 
+                prefix="Aumentamos"
                 texts={[
-                  "Aumentamos Suas Vendas",
+                  "Suas Vendas",
                   "Seu Faturamento",
                   "Sua Presença de Marca"
                 ]}

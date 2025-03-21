@@ -8,6 +8,7 @@ interface TextRotatorProps {
   typingSpeed?: number;
   erasingSpeed?: number;
   delayBetweenTexts?: number;
+  prefix?: string;
 }
 
 const TextRotator = ({ 
@@ -15,7 +16,8 @@ const TextRotator = ({
   className,
   typingSpeed = 100,
   erasingSpeed = 50,
-  delayBetweenTexts = 1000
+  delayBetweenTexts = 1000,
+  prefix = ''
 }: TextRotatorProps) => {
   const [currentTextIndex, setCurrentTextIndex] = useState(0);
   const [displayText, setDisplayText] = useState('');
@@ -59,6 +61,7 @@ const TextRotator = ({
 
   return (
     <span className={cn("text-rotate-wrapper relative", className)}>
+      {prefix && <span className="mr-2">{prefix}</span>}
       <span className="inline-block min-h-[1.5em] relative">
         {displayText}
         <span className={cn(
