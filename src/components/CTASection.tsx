@@ -25,17 +25,24 @@ const CTASection = ({ className }: CTASectionProps) => {
               Entre para nossa lista de espera e seja um dos primeiros a transformar seu negócio
             </p>
             
-            <div className="bg-white/10 backdrop-blur-sm p-8 rounded-2xl border border-white/20 shadow-xl mb-10">
-              <div className="flex flex-col md:flex-row gap-4">
-                <input 
-                  type="email" 
-                  placeholder="Seu melhor e-mail" 
-                  className="flex-1 px-6 py-4 rounded-xl bg-white/10 border border-white/20 text-white placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-white/50 transition-all"
+            <div className="bg-white/10 backdrop-blur-sm p-8 rounded-2xl border border-white/20 shadow-xl mb-10 flex flex-col items-center">
+              <div className="w-20 h-20 bg-white/20 rounded-full mb-6 flex items-center justify-center overflow-hidden">
+                <img
+                  src="/public/lovable-uploads/dbbd0e9c-11d8-411a-9a43-a9c73d7a7266.png"
+                  alt="Chat"
+                  className="w-12 h-12 object-contain"
                 />
-                <AnimatedButton variant="secondary" className="md:flex-shrink-0">
-                  ENTRAR NA LISTA
-                </AnimatedButton>
               </div>
+              
+              <a 
+                href="https://chat.whatsapp.com/EUDMCDnWSAt1PaLSD86RNw" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <AnimatedButton variant="secondary" className="px-8 py-4 text-lg">
+                  ENTRAR NA LISTA DE ESPERA
+                </AnimatedButton>
+              </a>
             </div>
             
             <p className="text-white/70 text-sm">

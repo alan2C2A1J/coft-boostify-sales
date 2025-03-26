@@ -62,7 +62,7 @@ const TextRotator = ({
   return (
     <span className={cn("text-rotate-wrapper relative", className)}>
       {prefix && <span className="mr-2">{prefix}</span>}
-      <span className="inline-block min-h-[1.5em] relative">
+      <span className="inline-block min-h-[1.5em] relative text-orange-500">
         {displayText}
         <span className={cn(
           "inline-block w-[2px] h-[1em] bg-white ml-1 -mb-[2px] animate-pulse",

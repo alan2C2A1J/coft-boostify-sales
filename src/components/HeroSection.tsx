@@ -56,8 +56,8 @@ const HeroSection = ({ className }: HeroSectionProps) => {
               {/* Main image with glass morphism effect */}
               <div className="bg-gradient-to-tr from-white/10 to-white/5 p-1 rounded-3xl border border-white/10 shadow-xl">
                 <img 
-                  src="/public/placeholder.svg" 
-                  alt="COFT Interface" 
+                  src="/public/lovable-uploads/b7b03d4b-b609-428f-aedb-a81e816a32eb.png" 
+                  alt="Análise de dados financeiros" 
                   className="w-full max-w-md rounded-2xl shadow-lg transform transition-transform duration-700 hover:scale-[1.02]"
                 />
               </div>

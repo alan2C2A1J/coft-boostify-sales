@@ -89,7 +89,7 @@ const Footer = ({ className }: FooterProps) => {
               </div>
               <div className="flex items-start">
                 <span className="text-blue-500 mr-2 mt-1">•</span>
-                <span className="text-white/70">São Paulo, SP - Brasil</span>
+                <span className="text-white/70">Florianópolis - SC, Brasil</span>
               </div>
             </div>
           </div>
