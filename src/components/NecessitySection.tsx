@@ -31,7 +31,7 @@ const NecessitySection = ({ className }: NecessitySectionProps) => {
                 </svg>
               </div>
               <h3 className="text-2xl font-bold mb-4">
-                <span className="text-gradient-blue">RESPIRAR</span> é a necessidade
+                <span className="text-gradient-blue">RESPIRAR</span> <br /> é a necessidade
               </h3>
               <p className="text-gray-600 text-lg">
                 básica de todo ser humano
@@ -47,7 +47,7 @@ const NecessitySection = ({ className }: NecessitySectionProps) => {
                 </svg>
               </div>
               <h3 className="text-2xl font-bold mb-4">
-                <span className="text-gradient-orange">VENDER</span> é a necessidade
+                <span className="text-gradient-orange">VENDER</span> <br />é a necessidade
               </h3>
               <p className="text-gray-600 text-lg">
                 básica de toda empresa

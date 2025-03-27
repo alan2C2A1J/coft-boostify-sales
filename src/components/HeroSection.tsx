@@ -41,7 +41,7 @@ const HeroSection = ({ className }: HeroSectionProps) => {
               />
             </h1>
             <p className="text-white/80 text-lg md:text-xl mb-8 max-w-xl">
-              Na COFT, transformamos sua empresa através de soluções digitais inovadoras e personalizadas.
+              Na COFT, transformamos os dados da sua empresa em dinheiro no caixa.
             </p>
             <AnimatedButton>
               SAIBA MAIS
@@ -56,6 +56,7 @@ const HeroSection = ({ className }: HeroSectionProps) => {
               {/* Main image with glass morphism effect */}
               <div className="bg-gradient-to-tr from-white/10 to-white/5 p-1 rounded-3xl border border-white/10 shadow-xl">
                 <img 
+                  // TODO: INSERIR IMAGEM
                   src="/public/lovable-uploads/b7b03d4b-b609-428f-aedb-a81e816a32eb.png" 
                   alt="Análise de dados financeiros" 
                   className="w-full max-w-md rounded-2xl shadow-lg transform transition-transform duration-700 hover:scale-[1.02]"

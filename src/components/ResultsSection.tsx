@@ -49,7 +49,7 @@ const ResultsSection = ({ className }: ResultsSectionProps) => {
               RESULTADOS COMPROVADOS
             </h2>
             <p className="text-xl text-white/90 max-w-2xl mx-auto">
-              Caso de sucesso: MSM Hamburgueria
+              Case de sucesso: MM Hamburgueria
             </p>
           </div>
         </SectionTransition>
@@ -61,6 +61,7 @@ const ResultsSection = ({ className }: ResultsSectionProps) => {
                 <div className="w-16 h-16 mx-auto mb-6 bg-white/20 rounded-full flex items-center justify-center overflow-hidden">
                   {result.icon === 'chart' && (
                     <img 
+                      // TODO: INSERIR IMAGEM
                       src="/public/lovable-uploads/5d2fd12b-7f28-4398-812a-a3ab4f68a958.png" 
                       alt="Estatística" 
                       className="w-10 h-10 object-contain"

@@ -30,6 +30,7 @@ const Header = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center">
             <span className="text-blue-500 font-bold text-2xl mr-1">•</span>
+            // TODO: INSERIR LOGO
             <span className="text-white font-bold text-2xl tracking-tight">COFT</span>
           </div>
           
