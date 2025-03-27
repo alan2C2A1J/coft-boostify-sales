@@ -14,12 +14,12 @@ const AboutSection = ({ className }: AboutSectionProps) => {
         <SectionTransition>
           <div className="max-w-4xl mx-auto text-center">
             <p className="text-2xl md:text-3xl lg:text-4xl mb-6 leading-tight">
-              Na <span className="text-gradient-blue">COFT</span>, nós não criamos<br/>
-              apenas <span className="text-gradient-blue">softwares</span>;
+              Na <span className="text-gradient-blue">COFT</span>, nós não criamos
+              apenas <span className="text-gradient-blue">softwares()</span>;
             </p>
-            
+            <br /><br />
             <p className="text-2xl md:text-3xl lg:text-4xl leading-tight">
-              Nós <span className="text-gradient-blue">criamos o futuro</span>
+              Nós <span className="text-gradient-blue">C</span>riamos o <span className="text-gradient-blue">F</span>u<span className="text-gradient-blue">T</span>uro 🔮
             </p>
             
             <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -50,7 +50,7 @@ const AboutSection = ({ className }: AboutSectionProps) => {
                   </svg>
                 </div>
                 <h3 className="text-xl font-semibold mb-4">Impacto</h3>
-                <p className="text-white/70">Transformamos números em crescimento real, mensurável e significativo para o seu negócio.</p>
+                <p className="text-white/70">Transformamos dados em crescimento real, mensurável e significativo para o seu negócio.</p>
               </div>
             </div>
           </div>

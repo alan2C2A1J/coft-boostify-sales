@@ -30,11 +30,11 @@ const StepsSection = ({ className }: StepsSectionProps) => {
     <section className={cn('py-32 bg-dark-900 text-white', className)}>
       <div className="container max-w-7xl mx-auto px-6 md:px-8">
         <SectionTransition>
-          <div className="text-center mb-20">
-            <p className="text-xl text-white/80 mb-4">
+          <div className="text-center mb-40">
+            <h1 className="text-4xl text-white/80 mb-4">
               Esses resultados foram obtidos através de
-            </p>
-            <h3 className="text-2xl md:text-3xl font-bold text-blue-500">
+            </h1>
+            <h3 className="text-3xl md:text-3xl font-bold text-blue-500">
               3 passos simples:
             </h3>
           </div>
@@ -77,11 +77,27 @@ const StepsSection = ({ className }: StepsSectionProps) => {
                     <div className="absolute inset-0 bg-gradient-to-tr from-blue-500/30 to-blue-500/5 rounded-2xl transform rotate-3 scale-105 blur-xl"></div>
                     <div className="bg-dark-800/60 backdrop-blur-md p-1 rounded-2xl border border-white/10 shadow-2xl relative transform transition-all duration-500 hover:scale-105">
                       <div className="bg-gradient-to-tr from-blue-500/20 via-dark-800/40 to-dark-800/60 rounded-xl overflow-hidden">
-                        <img 
-                          src="/public/placeholder.svg" 
-                          alt={step.title} 
-                          className="w-full max-w-md object-cover h-64 md:h-80 mix-blend-luminosity opacity-90"
-                        />
+                                                {step.icon === "map" && (
+                                  <img 
+                                    src="/public/lovable-uploads/map.png" 
+                                    alt={step.title} 
+                                    className="w-full max-w-md object-cover h-64 md:h-80 "
+                                  />
+                                )}
+                                {step.icon === "search" && (
+                                  <img 
+                                    src="/public/lovable-uploads/search.png" 
+                                    alt={step.title} 
+                                    className="w-full max-w-md object-cover h-64 md:h-80 "
+                                  />
+                                )}
+                                {step.icon === "zap" && (
+                                  <img 
+                                    src="/public/lovable-uploads/zap.png" 
+                                    alt={step.title} 
+                                    className="w-full max-w-md object-cover h-64 md:h-80 "
+                                  />
+                                )}
                       </div>
                     </div>
                     
