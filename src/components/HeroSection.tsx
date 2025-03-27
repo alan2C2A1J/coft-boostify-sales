@@ -43,7 +43,7 @@ const HeroSection = ({ className }: HeroSectionProps) => {
             <p className="text-white/80 text-lg md:text-xl mb-8 max-w-xl">
               Na COFT, transformamos os dados da sua empresa em dinheiro no caixa.
             </p>
-            <AnimatedButton>
+            <AnimatedButton href="https://wa.me/48988624435" >
               SAIBA MAIS
             </AnimatedButton>
           </div>
@@ -54,12 +54,12 @@ const HeroSection = ({ className }: HeroSectionProps) => {
               <div className="absolute -bottom-10 left-0 right-0 h-20 bg-gradient-to-t from-blue-500/20 to-transparent rounded-full filter blur-xl"></div>
               
               {/* Main image with glass morphism effect */}
-              <div className="bg-gradient-to-tr from-white/10 to-white/5 p-1 rounded-3xl border border-white/10 shadow-xl">
+              <div className="bg-gradient-to-tr from-white/10 to-white/5 p-1 rounded-xl border border-white/10 shadow-xl">
                 <img 
                   // TODO: INSERIR IMAGEM
                   src="/public/lovable-uploads/b7b03d4b-b609-428f-aedb-a81e816a32eb.png" 
                   alt="Análise de dados financeiros" 
-                  className="w-full max-w-md rounded-2xl shadow-lg transform transition-transform duration-700 hover:scale-[1.02]"
+                  className="w-80 h-80 rounded-xl shadow-xl hover:scale-[1.05] transition-transform duration-300"
                 />
               </div>
             </div>

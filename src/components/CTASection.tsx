@@ -25,27 +25,17 @@ const CTASection = ({ className }: CTASectionProps) => {
               Entre para nossa lista de espera e seja um dos primeiros a transformar seu negócio
             </p>
             
-            <div className="bg-white/10 backdrop-blur-sm p-8 rounded-2xl border border-white/20 shadow-xl mb-10 flex flex-col items-center">
-              <div className="w-20 h-20 bg-white/20 rounded-full mb-6 flex items-center justify-center overflow-hidden">
-                <img
-                  src="/public/lovable-uploads/dbbd0e9c-11d8-411a-9a43-a9c73d7a7266.png"
-                  alt="Chat"
-                  className="w-12 h-12 object-contain"
-                />
-              </div>
-              
-              <a 
+            <a 
                 href="https://chat.whatsapp.com/EUDMCDnWSAt1PaLSD86RNw" 
-                target="_blank" 
+                target="new" 
                 rel="noopener noreferrer"
               >
                 <AnimatedButton variant="secondary" className="px-8 py-4 text-lg">
                   ENTRAR NA LISTA DE ESPERA
                 </AnimatedButton>
               </a>
-            </div>
             
-            <p className="text-white/70 text-sm">
+            <p className="text-white/70 text-sm mt-6">
               Ao se inscrever, você concorda em receber comunicações da COFT sobre nossos produtos e serviços.
             </p>
           </div>

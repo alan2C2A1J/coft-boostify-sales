@@ -12,9 +12,13 @@ const BenefitsSection = ({ className }: BenefitsSectionProps) => {
     <section className={cn('py-32 bg-gray-50', className)}>
       <div className="container max-w-7xl mx-auto px-6 md:px-8">
         <SectionTransition>
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-16 tracking-tight">
-            <span className="text-gradient-blue">Aumentamos</span> seu <span className="text-gradient-blue">faturamento</span> e<br/>
-            <span className="text-gradient-orange">Economizamos</span> seu <span className="text-gradient-orange">tempo</span>
+          <h2 className="text-3xl md:text-4xl  text-center mb-16 tracking-tight">
+            <span className="text-gradient-blue font-bold">Aumentamos</span> seu <span className="font-bold text-gradient-blue">faturamento</span> e<br/>
+            <span className="text-gradient-orange font-bold">Economizamos</span> seu <span className=" font-bold text-gradient-orange">tempo</span>
+            <p className="text-gray-600 text-lg mt-6"> 
+              Seus consumidores podem e irão comprar novamente de você, basta você se comunicar com eles, do
+            jeito certo, na hora certa e no momento certo
+            </p>
           </h2>
         </SectionTransition>
         
@@ -26,7 +30,7 @@ const BenefitsSection = ({ className }: BenefitsSectionProps) => {
                 {[
                   "Processos manuais e demorados",
                   "Baixa visibilidade dos resultados",
-                  "Decisões baseadas em intuição, não em dados",
+                  "Decisões baseadas em intuição, não na realidade",
                   "Dificuldade em escalar operações",
                   "Perda de oportunidades de vendas"
                 ].map((item, index) => (
@@ -51,7 +55,7 @@ const BenefitsSection = ({ className }: BenefitsSectionProps) => {
                   "Automação inteligente de processos",
                   "Relatórios em tempo real e análises detalhadas",
                   "Decisões estratégicas orientadas por dados",
-                  "Crescimento sustentável e escalável",
+                  "Crescimento escalável e sustentável",
                   "Aumento significativo na conversão de vendas"
                 ].map((item, index) => (
                   <li key={index} className="flex items-start">
